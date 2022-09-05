@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.post-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+}

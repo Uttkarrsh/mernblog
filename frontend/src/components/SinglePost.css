@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.single-box{
+    display: flex;
+    flex-direction: column;
+}
+.single-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-style: italic;
+}
+.updated-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: grey;
+}
+.Single-image img{
+    width: 90%;
+    object-fit: cover;
+    height: 500px;
+   margin: 30px 0px 30px 80px;
+}
+.auth-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    margin-bottom: 40px;
+}
+.auth p{
+    font-size: 25px;
+    font-weight: 500;
+}
+span{
+    font-style: italic;
+    color: rgba(108, 108, 60, 0.923);
+}
+.edit ,.delete{
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.edit:hover{
+    color: rgba(108, 108, 60, 0.923);
+    transition: 0.3s ease;
+
+}
+.delete :hover{
+    color: rgba(108, 108, 60, 0.923);
+    transition: 0.3s ease;
+
+}
+.single-date{
+    margin-top: 10px;
+    font-style: italic;
+}
+.para{
+    margin: 30px 60px;
+    margin-bottom: 40px;
+}
+.updated-Text{
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: grey;
+}
+.para p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.delete{
+    cursor: pointer;
+}
+.update-button{
+    margin-top: 50px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 700px;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    color:white;
+    background-color: rgb(8,184,117);
+}
+
+@media screen and (max-width:780px){
+    .single-box{
+        margin-top: 40px;
+        top: 400px;
+    }
+    .single-box img{
+        width: 320px;
+        height: 320px;
+    }
+}

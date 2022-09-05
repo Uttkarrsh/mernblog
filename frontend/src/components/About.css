@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.about-box{
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    margin-top: 90px;
+}
+.about-info h1{
+    margin-left: 100px;
+}
+.about-info{
+    flex: 6;
+}
+.about-para{
+    padding: 30px 60px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.about-para h3{
+   margin-top: 90px;
+   margin-left: 80px;
+}
+.about-image{
+    margin-top: 30px;
+    text-align: center;
+    flex: 4;
+}
+.about-image img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:780px){
+    .about-box{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .about-para h3{
+        margin-left: 0px;
+    }
+}
